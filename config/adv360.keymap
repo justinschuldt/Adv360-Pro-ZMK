@@ -91,7 +91,7 @@
         layer_dev {
             bindings = <
  &trans  &trans  &trans                &trans                 &trans            &trans            &trans                                                  &trans    &trans  &kp C_BRI_DN  &kp C_BRI_UP     &trans  &trans  &trans
- &trans  &trans  &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp PIPE            &trans                                                  &trans    &trans  &kp K_VOL_DN  &kp K_VOL_UP     &trans  &trans  &trans
+ &trans  &trans  &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp PIPE            &trans                                                  &trans    &trans  &kp C_VOL_DN  &kp C_VOL_UP     &trans  &trans  &trans
  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT      &kp DOWN        &kp UP  &kp RIGHT  &trans  &trans
  &trans  &trans  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET         &kp TILDE                            &trans                  &trans                    &trans    &kp C_NEXT    &kp C_PREV     &trans  &trans  &trans
  &trans  &trans  &trans                &trans                 &trans                              &trans  &trans  &trans                  &trans  &trans  &trans                  &trans        &trans     &trans  &trans  &trans
@@ -100,11 +100,11 @@
 
         layer_nav {
             bindings = <
- &trans  &trans  &kp C_BRIGHTNESS_DEC               &kp C_BRIGHTNESS_INC  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &kp K_MUTE  &kp K_VOL_DN  &kp K_VOL_UP
- &trans  &trans                &trans  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans      &trans        &trans        &trans
- &trans  &trans                &trans                    &kp C_AC_SEARCH  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans        &trans
- &trans  &trans         &kp C_AL_LOCK                             &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans      &trans        &trans        &trans
- &trans  &trans                &trans                             &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans      &trans        &trans        &trans
+ &trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
+ &trans  &trans                &trans            &kp LG(UP)  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans      &trans        &trans        &trans
+ &trans  &trans                &trans         &kp LG(SPACE)  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans        &trans
+ &trans  &trans                &trans                &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans      &trans        &trans        &trans
+ &trans  &trans                &trans                &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans      &trans        &trans        &trans
             >;
         };
 
